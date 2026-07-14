@@ -1,0 +1,1 @@
+SEN_A70_azo_low /Volumes/T7/playground/SlipSolve/inversions/quick_model_grids/SEN_A70_azo_low/model.grd /Volumes/T7/playground/SlipSolve/data/processed/model_based_sampling/SEN_A70_azo_low/azo_samp99.mat
