@@ -890,11 +890,16 @@ SlipSolve-curve uses two distribution layers:
   checksums.
 - **Google Drive folder:** all source `.grd` files used by the example, the
   three approximately 1.4 GB full-resolution Green matrices, the sampled-Green
-  cache, and the support fault traces.
+  cache, support fault traces, seven sampled inversion tracks, and the
+  independent sampled observations.
 
 This separation is required because GitHub blocks regular Git objects above
 100 MiB. See GitHub's
 [large-file guidance](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github).
+
+The compact sampled observations are intentionally included in both packages.
+The seven inversion `*samp3.mat` files are under `data/raw/legacy_samp3`; the
+independent Sentinel-2 sample is under `data/raw/independent/SEN2`.
 
 ### Before The First Release
 
@@ -932,7 +937,12 @@ SlipSolve-curve-example-data/
         SEN/...
         mesh_trace.txt
         trace.S2
-      independent/SEN2/azo_ll.grd
+      legacy_samp3/
+        ALOS2/{A152,D41,D42}/los_samp3.mat
+        SEN/{A70,A143,D33,D106}/azo_samp3.mat
+      independent/SEN2/
+        azo_ll.grd
+        azo_samp3.mat
   greens/
     composite_full_xyz/G_e.mat
     composite_full_xyz/G_n.mat
