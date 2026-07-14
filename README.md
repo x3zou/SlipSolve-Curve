@@ -29,7 +29,7 @@ Large example grids and Green matrices are distributed separately through
 Google Drive and are not stored in GitHub. Before running MATLAB:
 
 1. Download the Google Drive folder named
-   `SlipSolve-curve-example-data`.
+   `SlipSolve-curve-example-data`. Link is [here](https://drive.google.com/file/d/1Jktskt3gbN6-XIxi6REiWo71u5H28UgI/view?usp=sharing).
 2. Copy its `data` and `greens` folders into the cloned SlipSolve-curve root.
    Merge with the existing folders and preserve every relative path and name.
 3. In MATLAB, verify the installation:
