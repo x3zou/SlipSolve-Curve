@@ -1,6 +1,6 @@
 # SlipSolve-curve
 
-SlipSolve-curve is a curved-fault variant of SlipSolve for reproducible MATLAB
+SlipSolve-curve is a curved-fault variant of [SlipSolve](https://github.com/ZeyuJin/geodetic_inversion) for reproducible MATLAB
 coseismic-slip inversion on triangular fault meshes. It preserves the
 numerical methods and conventions of the legacy workflow while making inputs,
 stage boundaries, parameters, figures, and restart products explicit.
