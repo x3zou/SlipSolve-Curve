@@ -43,9 +43,6 @@ manifest. For a full byte-level check on macOS or Linux, run
 `shasum -a 256 -c examples/myanmar_demo/example_data_sha256.txt` from the
 project root.
 
-**Maintainer:** replace `GOOGLE_DRIVE_DOWNLOAD_LINK` here with the public
-Google Drive share URL after uploading the prepared folder.
-
 Then, from the project root, run:
 
 ```matlab
